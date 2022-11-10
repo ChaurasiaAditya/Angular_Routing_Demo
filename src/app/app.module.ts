@@ -16,7 +16,7 @@ import { NotesComponent } from './notes/notes.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ViewoneblogComponent } from './viewoneblog/viewoneblog.component';
-import {MatRippleModule} from '@angular/material/core';
+import { MatRippleModule } from '@angular/material/core';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { ViewonenoteComponent } from './viewonenote/viewonenote.component';
 import { AdminComponent } from './admin/admin.component';
@@ -25,7 +25,8 @@ import { EditComponent } from './edit/edit.component';
 import { DeleteComponent } from './delete/delete.component';
 import { LoginComponent } from './login/login.component';
 import { FormsModule } from '@angular/forms';
-import {MatInputModule} from '@angular/material/input';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
@@ -56,8 +57,9 @@ import {MatInputModule} from '@angular/material/input';
     HttpClientModule,
     MatRippleModule,
     FormsModule,
-    MatInputModule
-    
+    MatInputModule,
+    MatFormFieldModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
