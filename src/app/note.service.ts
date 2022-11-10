@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -10,7 +11,7 @@ export class NoteService {
 
   URL: string = "http://localhost:3000/notes"
 
-  getNotes(){
-    return this.httpclient.get<Array<Note>>(this.URL);
+  getNotes():Observable<Array<Object>>{
+    return this.httpclient.get<Array<Object>>(this.URL);
   }
 }
