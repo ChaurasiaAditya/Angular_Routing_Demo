@@ -18,6 +18,7 @@ import { RegistorComponent } from './registor/registor.component';
 import { ViewproductComponent } from './viewproduct/viewproduct.component';
 import { NotesComponent } from './notes/notes.component';
 import { BlogsComponent } from './blogs/blogs.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { BlogsComponent } from './blogs/blogs.component';
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

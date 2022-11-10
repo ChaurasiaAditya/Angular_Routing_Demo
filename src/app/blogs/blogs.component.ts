@@ -16,8 +16,7 @@ export class BlogsComponent implements OnInit {
   ngOnInit(): void {
     this.blogService.getAllBlogs().subscribe({
       next: (data) => this.blogs = data,
-      error: () => alert("Failed to Fetch Blogs due to Network Error!!!"),
-      complete: () => alert("Blog Data Fetched Successfully!!!")
+      error: () => alert("Failed to Fetch Blogs due to Network Error!!!")
     })
   }
 
