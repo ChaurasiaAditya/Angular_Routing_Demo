@@ -5,7 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { NotesComponent } from './notes/notes.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { ViewoneblogComponent } from './viewoneblog/viewoneblog.component';
-import { ViewproductComponent } from './viewproduct/viewproduct.component';
+import { ViewonenoteComponent } from './viewonenote/viewonenote.component';
 
 const routes: Routes = [
   {
@@ -21,12 +21,12 @@ const routes: Routes = [
     component:NotesComponent
   },
   {
-    path:"product",
-    component:ViewproductComponent
-  },
-  {
     path:"viewoneblog/:id",
     component:ViewoneblogComponent
+  },
+  {
+    path:"viewonenote/:id",
+    component:ViewonenoteComponent
   },
   {
     path:"**",

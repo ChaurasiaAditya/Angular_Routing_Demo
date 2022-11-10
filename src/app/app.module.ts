@@ -12,7 +12,6 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './home/home.component';
-import { ViewproductComponent } from './viewproduct/viewproduct.component';
 import { NotesComponent } from './notes/notes.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { HttpClientModule } from '@angular/common/http';
@@ -26,7 +25,6 @@ import { ViewonenoteComponent } from './viewonenote/viewonenote.component';
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    ViewproductComponent,
     NotesComponent,
     BlogsComponent,
     ViewoneblogComponent,
