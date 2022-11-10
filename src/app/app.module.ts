@@ -19,6 +19,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ViewoneblogComponent } from './viewoneblog/viewoneblog.component';
 import {MatRippleModule} from '@angular/material/core';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { ViewonenoteComponent } from './viewonenote/viewonenote.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { NotfoundComponent } from './notfound/notfound.component';
     NotesComponent,
     BlogsComponent,
     ViewoneblogComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    ViewonenoteComponent
   ],
   imports: [
     BrowserModule,
