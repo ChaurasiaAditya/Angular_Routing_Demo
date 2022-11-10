@@ -19,6 +19,7 @@ import { ViewproductComponent } from './viewproduct/viewproduct.component';
 import { NotesComponent } from './notes/notes.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ViewoneblogComponent } from './viewoneblog/viewoneblog.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { HttpClientModule } from '@angular/common/http';
     RegistorComponent,
     ViewproductComponent,
     NotesComponent,
-    BlogsComponent
+    BlogsComponent,
+    ViewoneblogComponent
   ],
   imports: [
     BrowserModule,

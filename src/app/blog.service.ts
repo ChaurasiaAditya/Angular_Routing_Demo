@@ -16,4 +16,8 @@ export class BlogService {
   getAllBlogs(): Observable<Array<Blog>> {
     return this.httpclient.get<Array<Blog>>(this.URL);
   }
+
+  getOneBlogs(id?:number): Observable<Blog> {
+    return this.httpclient.get<Blog>(this.URL+"/"+id);
+  }
 }

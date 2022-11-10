@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { NotesComponent } from './notes/notes.component';
 import { RegistorComponent } from './registor/registor.component';
+import { ViewoneblogComponent } from './viewoneblog/viewoneblog.component';
 import { ViewproductComponent } from './viewproduct/viewproduct.component';
 
 const routes: Routes = [
@@ -29,6 +30,10 @@ const routes: Routes = [
     path:"product",
     component:ViewproductComponent
   },
+  {
+    path:"viewoneblog/:id",
+    component:ViewoneblogComponent
+  }
 ];
 
 @NgModule({
