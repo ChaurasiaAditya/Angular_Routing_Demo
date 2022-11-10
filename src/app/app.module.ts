@@ -22,6 +22,7 @@ import { ViewonenoteComponent } from './viewonenote/viewonenote.component';
 import { AdminComponent } from './admin/admin.component';
 import { AddComponent } from './add/add.component';
 import { EditComponent } from './edit/edit.component';
+import { DeleteComponent } from './delete/delete.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { EditComponent } from './edit/edit.component';
     ViewonenoteComponent,
     AdminComponent,
     AddComponent,
-    EditComponent
+    EditComponent,
+    DeleteComponent
   ],
   imports: [
     BrowserModule,
