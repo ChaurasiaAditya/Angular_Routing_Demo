@@ -1,1 +1,24 @@
 <p>notes works!</p>
+
+<!-- <p>note works!</p> -->
+<div class="box">
+    <div class="container" *ngFor="let note of NOTE">
+        <div class="title">
+            <h2 [ngSwitch]="note.priority"> {{note.title}}
+                <mat-icon *ngSwitchCase="'Low'" color="primary">arrow_circle_down</mat-icon>
+                <mat-icon *ngSwitchCase="'Medium'" color="primary">remove_circle_outline</mat-icon>
+                <mat-icon *ngSwitchCase="'High'" color="accent">arrow_circle_up</mat-icon>
+                <mat-icon *ngSwitchCase="'Critical'" color="accent">gpp_maybe</mat-icon>
+            </h2>
+        </div>
+        <div class="date">
+            <p>{{note.reminderDate | date: 'YYYY/MM/dd hh:mm aaa'}}</p>
+        </div>
+        <div class="content">
+            <p> {{note.content}} </p>
+        </div>
+        <p>
+            <span class="category"> {{note.category}} </span>
+        </p>
+    </div>
+</div>

@@ -9,7 +9,7 @@ export class NoteService {
 
   constructor(private httpclient: HttpClient) { }
 
-  URL: string = "http://localhost:3000/notes"
+  URL: string = "http://localhost:3001/notes"
 
   getNotes():Observable<Array<Object>>{
     return this.httpclient.get<Array<Object>>(this.URL);
