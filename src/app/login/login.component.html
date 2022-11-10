@@ -1,10 +1,21 @@
-<p>login works!</p>
-<div>
-    Enter Username <input type="text" [(ngModel)]="username">
-</div>
-<div>
-    Enter password <input matInput type="text" [(ngModel)]="password">
-</div>
+<form>
+    <div>
+        <mat-form-field appearance="fill">
+            <mat-label>
+                Enter Username
+            </mat-label>
+            <input matInput type="text" [(ngModel)]="username">
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field appearance="fill">
+            <mat-label>
+                Enter password
+            </mat-label>
+            <input matInput type="text" [(ngModel)]="password">
+        </mat-form-field>
+    </div>
+</form>
 <div>
     <button class="button" color="primary" mat-button mat-raised-button (click)="loginfun()">Log In</button>
 </div>
