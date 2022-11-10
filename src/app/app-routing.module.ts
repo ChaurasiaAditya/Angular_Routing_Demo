@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AdminComponent } from './admin/admin.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { HomeComponent } from './home/home.component';
 import { NotesComponent } from './notes/notes.component';
@@ -27,6 +28,10 @@ const routes: Routes = [
   {
     path:"viewonenote/:id",
     component:ViewonenoteComponent
+  },
+  {
+    path:"admin",
+    component:AdminComponent
   },
   {
     path:"**",

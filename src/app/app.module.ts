@@ -20,6 +20,8 @@ import {MatRippleModule} from '@angular/material/core';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { ViewonenoteComponent } from './viewonenote/viewonenote.component';
 import { AdminComponent } from './admin/admin.component';
+import { AddComponent } from './add/add.component';
+import { EditComponent } from './edit/edit.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { AdminComponent } from './admin/admin.component';
     ViewoneblogComponent,
     NotfoundComponent,
     ViewonenoteComponent,
-    AdminComponent
+    AdminComponent,
+    AddComponent,
+    EditComponent
   ],
   imports: [
     BrowserModule,
