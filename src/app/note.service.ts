@@ -10,5 +10,7 @@ export class NoteService {
 
   URL: string = "http://localhost:3000/notes"
 
-  
+  getNotes(){
+    return this.httpclient.get<Array<Note>>(this.URL);
+  }
 }
