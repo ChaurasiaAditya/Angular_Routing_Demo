@@ -8,5 +8,7 @@ export class NoteService {
 
   constructor(private httpclient: HttpClient) { }
 
+  URL: string = "http://localhost:3000/notes"
+
   
 }
