@@ -3,12 +3,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
+    ;
 }
 
 .blog {
-    width: 350px;
+    width: 280px;
     height: auto;
-    padding: 20px 30px;    
+    padding: 20px 30px;  
+    margin: 20px;
+    box-shadow: 1px 1px 10px
+
 }
 
 .blog :hover{
