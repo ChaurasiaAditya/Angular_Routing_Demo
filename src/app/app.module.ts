@@ -23,6 +23,7 @@ import { AdminComponent } from './admin/admin.component';
 import { AddComponent } from './add/add.component';
 import { EditComponent } from './edit/edit.component';
 import { DeleteComponent } from './delete/delete.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { DeleteComponent } from './delete/delete.component';
     AdminComponent,
     AddComponent,
     EditComponent,
-    DeleteComponent
+    DeleteComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
