@@ -8,8 +8,6 @@
       <a mat-list-item routerLink="">Home</a>
       <a mat-list-item routerLink="blogs">Blogs</a>
       <a mat-list-item routerLink="notes">Notes</a>
-      <a mat-list-item routerLink="registor">Register</a>
-      <a mat-list-item routerLink="login">View Product</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -22,7 +20,7 @@
         *ngIf="isHandset$ | async">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      <span>demo2</span>
+      <span>Angular Routing Demo</span>
     </mat-toolbar>
     <router-outlet></router-outlet>
     <!-- Add Content Here -->
