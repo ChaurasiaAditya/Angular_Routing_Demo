@@ -20,6 +20,7 @@ import { NotesComponent } from './notes/notes.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ViewoneblogComponent } from './viewoneblog/viewoneblog.component';
+import {MatRippleModule} from '@angular/material/core';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,9 @@ import { ViewoneblogComponent } from './viewoneblog/viewoneblog.component';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    HttpClientModule
+    HttpClientModule,
+    MatRippleModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
