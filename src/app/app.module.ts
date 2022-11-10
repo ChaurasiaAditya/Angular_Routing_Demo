@@ -24,6 +24,7 @@ import { AddComponent } from './add/add.component';
 import { EditComponent } from './edit/edit.component';
 import { DeleteComponent } from './delete/delete.component';
 import { LoginComponent } from './login/login.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { LoginComponent } from './login/login.component';
     MatIconModule,
     MatListModule,
     HttpClientModule,
-    MatRippleModule
+    MatRippleModule,
+    FormsModule
     
   ],
   providers: [],
