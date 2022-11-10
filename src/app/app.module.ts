@@ -12,28 +12,24 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './home/home.component';
-import { ContactComponent } from './contact/contact.component';
-import { LoginComponent } from './login/login.component';
-import { RegistorComponent } from './registor/registor.component';
 import { ViewproductComponent } from './viewproduct/viewproduct.component';
 import { NotesComponent } from './notes/notes.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ViewoneblogComponent } from './viewoneblog/viewoneblog.component';
 import {MatRippleModule} from '@angular/material/core';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    ContactComponent,
-    LoginComponent,
-    RegistorComponent,
     ViewproductComponent,
     NotesComponent,
     BlogsComponent,
-    ViewoneblogComponent
+    ViewoneblogComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,

@@ -1,9 +1,6 @@
-
 <div class="blog-container">
     <div class="blog" *ngFor="let blog of blogs">
-        <a href="#">
-        <h3>{{blog.title}}</h3>
-        <p>{{blog.content}}</p>
+        <h3>Title : {{blog.title}}</h3>
         <div class="blog-footer">
             <span class="author-initial">{{blog.author?.charAt(0)}}</span>
             <div class="post-details">
@@ -11,6 +8,7 @@
                 <div class="blog-date">{{blog.date}}</div>
             </div>
         </div>
-        </a> 
+        <button class="button" color="primary" mat-button mat-raised-button routerLink="../viewoneblog/{{blog.id}}">View
+            Blog</button>
     </div>
 </div>
