@@ -3,8 +3,8 @@
     Enter Username <input type="text" [(ngModel)]="username">
 </div>
 <div>
-    Enter password <input type="text" [(ngModel)]="password">
+    Enter password <input matInput type="text" [(ngModel)]="password">
 </div>
 <div>
-    <button  (click)="loginfun()">Log In</button>
+    <button class="button" color="primary" mat-button mat-raised-button (click)="loginfun()">Log In</button>
 </div>
