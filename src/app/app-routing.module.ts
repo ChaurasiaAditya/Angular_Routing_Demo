@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { NotesComponent } from './notes/notes.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { RegistrationComponent } from './registration/registration.component';
 import { ViewoneblogComponent } from './viewoneblog/viewoneblog.component';
 import { ViewonenoteComponent } from './viewonenote/viewonenote.component';
 
@@ -37,6 +38,10 @@ const routes: Routes = [
   {
     path: "login",
     component: LoginComponent
+  },
+  {
+    path: "registor",
+    component: RegistrationComponent
   },
   {
     path: "admin",
