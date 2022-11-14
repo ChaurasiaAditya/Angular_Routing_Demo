@@ -15,6 +15,10 @@ import { ViewonenoteComponent } from './viewonenote/viewonenote.component';
 
 const routes: Routes = [
   {
+    path: "",
+    component: HomeComponent
+  },
+  {
     path: "home",
     component: HomeComponent
   },
@@ -33,10 +37,6 @@ const routes: Routes = [
   {
     path: "login",
     component: LoginComponent
-  },
-  {
-    path: "viewonenote/:id",
-    component: ViewonenoteComponent
   },
   {
     path: "admin",
